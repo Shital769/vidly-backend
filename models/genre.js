@@ -1,6 +1,5 @@
 const Joi = require("joi");
 const mongoose = require("mongoose");
-const genres = require("../routes/genres");
 const Genre = mongoose.model(
   "Genre",
   new mongoose.Schema({
