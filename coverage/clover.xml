@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1672452262136" clover="3.2.0">
-  <project timestamp="1672452262136" name="All files">
-    <metrics statements="302" coveredstatements="195" conditionals="70" coveredconditionals="18" methods="41" coveredmethods="16" elements="413" coveredelements="229" complexity="0" loc="302" ncloc="302" packages="5" files="22" classes="22"/>
+<coverage generated="1672564218002" clover="3.2.0">
+  <project timestamp="1672564218002" name="All files">
+    <metrics statements="323" coveredstatements="200" conditionals="70" coveredconditionals="12" methods="46" coveredmethods="17" elements="439" coveredelements="229" complexity="0" loc="323" ncloc="323" packages="5" files="23" classes="23"/>
     <package name="vidly-backend">
       <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <file name="index.js" path="/Users/shitalrayamajhi/Documents/JavaScript-Shital/Projects/Vidly-project/vidly-backend/index.js">
@@ -21,7 +21,7 @@
       </file>
     </package>
     <package name="vidly-backend.middleware">
-      <metrics statements="22" coveredstatements="19" conditionals="6" coveredconditionals="3" methods="4" coveredmethods="3"/>
+      <metrics statements="27" coveredstatements="22" conditionals="8" coveredconditionals="3" methods="6" coveredmethods="5"/>
       <file name="admin.js" path="/Users/shitalrayamajhi/Documents/JavaScript-Shital/Projects/Vidly-project/vidly-backend/middleware/admin.js">
         <metrics statements="3" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="3" type="stmt"/>
@@ -33,20 +33,28 @@
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
         <line num="3" count="3" type="stmt"/>
-        <line num="4" count="8" type="stmt"/>
-        <line num="5" count="8" type="cond" truecount="2" falsecount="0"/>
-        <line num="6" count="6" type="stmt"/>
-        <line num="7" count="6" type="stmt"/>
-        <line num="8" count="5" type="stmt"/>
-        <line num="9" count="5" type="stmt"/>
+        <line num="4" count="17" type="stmt"/>
+        <line num="5" count="17" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="15" type="stmt"/>
+        <line num="7" count="15" type="stmt"/>
+        <line num="8" count="14" type="stmt"/>
+        <line num="9" count="14" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
       </file>
       <file name="error.js" path="/Users/shitalrayamajhi/Documents/JavaScript-Shital/Projects/Vidly-project/vidly-backend/middleware/error.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="13" count="2" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="13" count="11" type="stmt"/>
+      </file>
+      <file name="validate.js" path="/Users/shitalrayamajhi/Documents/JavaScript-Shital/Projects/Vidly-project/vidly-backend/middleware/validate.js">
+        <metrics statements="5" coveredstatements="3" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="9" type="stmt"/>
+        <line num="6" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="7" count="0" type="stmt"/>
       </file>
       <file name="validateObjectId.js" path="/Users/shitalrayamajhi/Documents/JavaScript-Shital/Projects/Vidly-project/vidly-backend/middleware/validateObjectId.js">
         <metrics statements="5" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
@@ -58,7 +66,7 @@
       </file>
     </package>
     <package name="vidly-backend.models">
-      <metrics statements="44" coveredstatements="36" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="2"/>
+      <metrics statements="52" coveredstatements="40" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="2"/>
       <file name="customer.js" path="/Users/shitalrayamajhi/Documents/JavaScript-Shital/Projects/Vidly-project/vidly-backend/models/customer.js">
         <metrics statements="7" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="3" type="stmt"/>
@@ -93,14 +101,22 @@
         <line num="46" count="3" type="stmt"/>
       </file>
       <file name="rental.js" path="/Users/shitalrayamajhi/Documents/JavaScript-Shital/Projects/Vidly-project/vidly-backend/models/rental.js">
-        <metrics statements="7" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <metrics statements="15" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
-        <line num="4" count="3" type="stmt"/>
-        <line num="63" count="0" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="60" count="3" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="67" count="3" type="stmt"/>
         <line num="68" count="0" type="stmt"/>
-        <line num="71" count="3" type="stmt"/>
-        <line num="72" count="3" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="74" count="3" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="85" count="3" type="stmt"/>
+        <line num="86" count="3" type="stmt"/>
       </file>
       <file name="user.js" path="/Users/shitalrayamajhi/Documents/JavaScript-Shital/Projects/Vidly-project/vidly-backend/models/user.js">
         <metrics statements="13" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
@@ -110,8 +126,8 @@
         <line num="4" count="4" type="stmt"/>
         <line num="6" count="4" type="stmt"/>
         <line num="31" count="4" type="stmt"/>
-        <line num="32" count="26" type="stmt"/>
-        <line num="36" count="26" type="stmt"/>
+        <line num="32" count="32" type="stmt"/>
+        <line num="36" count="32" type="stmt"/>
         <line num="39" count="4" type="stmt"/>
         <line num="42" count="0" type="stmt"/>
         <line num="48" count="0" type="stmt"/>
@@ -120,7 +136,7 @@
       </file>
     </package>
     <package name="vidly-backend.routes">
-      <metrics statements="184" coveredstatements="90" conditionals="60" coveredconditionals="12" methods="23" coveredmethods="4"/>
+      <metrics statements="192" coveredstatements="88" conditionals="58" coveredconditionals="6" methods="24" coveredmethods="3"/>
       <file name="auth.js" path="/Users/shitalrayamajhi/Documents/JavaScript-Shital/Projects/Vidly-project/vidly-backend/routes/auth.js">
         <metrics statements="19" coveredstatements="9" conditionals="6" coveredconditionals="0" methods="2" coveredmethods="0"/>
         <line num="2" count="3" type="stmt"/>
@@ -286,18 +302,26 @@
         <line num="55" count="3" type="stmt"/>
       </file>
       <file name="returns.js" path="/Users/shitalrayamajhi/Documents/JavaScript-Shital/Projects/Vidly-project/vidly-backend/routes/returns.js">
-        <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <metrics statements="19" coveredstatements="9" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
         <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
         <line num="5" count="3" type="stmt"/>
-        <line num="6" count="4" type="cond" truecount="2" falsecount="0"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="10" count="2" type="stmt"/>
-        <line num="15" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="20" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="14" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="39" count="3" type="stmt"/>
       </file>
       <file name="users.js" path="/Users/shitalrayamajhi/Documents/JavaScript-Shital/Projects/Vidly-project/vidly-backend/routes/users.js">
         <metrics statements="24" coveredstatements="12" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
