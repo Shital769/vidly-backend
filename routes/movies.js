@@ -57,7 +57,7 @@ router.put("/:id", async (req, res) => {
   res.send(movie);
 });
 
-router.delete("/:id", async (req, res) => {
+router.delete("/:id", [auth, admin], async (req, res) => {
   const movie = await Movie.findByIdAndRemove(req.params.id);
 
   if (!movie)
